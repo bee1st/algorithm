@@ -9,4 +9,4 @@ c = b_1 / 60
 c_1 = b_1 % 60
 d = c_1 % 60
 
-print(f'{a:.0f} {b:.0f} {c:.0f} {d:.0f}')
+print(f'{int(a)} {int(b)} {int(c)} {d:.0f}')
