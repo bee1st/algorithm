@@ -1,7 +1,3 @@
-# 45분전 시간 출력
-# 24시
-# 1시간 60분 23시간 = 1380분
-
 import sys
 x = list(map(int, sys.stdin.readline().split()))
 
