@@ -1,4 +1,10 @@
-a, b, c, d, e, f, g = map(int, input().split())
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+f = int(input())
+g = int(input())
 
 x = [a, b, c, d, e, f, g]
 
