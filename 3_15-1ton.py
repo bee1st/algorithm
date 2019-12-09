@@ -1,4 +1,3 @@
-import sys
 a = int(input())
 
 i = 0
