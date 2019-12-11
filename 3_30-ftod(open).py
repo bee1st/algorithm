@@ -8,3 +8,5 @@ c = x[2]
 d = (a * 10**c) // b 
 
 print(d / 10**c)
+
+# pass

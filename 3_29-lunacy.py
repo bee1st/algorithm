@@ -15,3 +15,5 @@ print(f'Objects weighing {a:.2f} on Earth will weigh {a1:.2f} on the moon.')
 print(f'Objects weighing {b:.2f} on Earth will weigh {b1:.2f} on the moon.')
 print(f'Objects weighing {c:.2f} on Earth will weigh {c1:.2f} on the moon.')
 print(f'Objects weighing {d:.2f} on Earth will weigh {d1:.2f} on the moon.')
+
+# pass

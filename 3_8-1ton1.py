@@ -6,3 +6,5 @@ for x in range(0, a):
     print(x+1,end='+')
 
 print(i)
+
+# pass
