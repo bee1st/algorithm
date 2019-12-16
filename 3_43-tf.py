@@ -5,7 +5,7 @@ a = x[0]
 
 
 
-for i in range(1, 10000, 2):
+for i in range(1, 1000000, 2):
     for j in range(0, 12):
         if i % 2 == 1:
             if (i * (2**j)) == a:
