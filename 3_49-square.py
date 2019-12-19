@@ -1,14 +1,18 @@
-a = int(input())
-b = int(input())
-c = 0
+M = int(input())
+N = int(input())
+
+min = 100000
+sum = 0
 
 for i in range(0, 101):
-    i = i * i
-    if a <= i <= b:
-        c = c + i
-        d = i
-        if d == c:
-            print(c)
+    square = i * i
+    if M <= square <= N:
+        if min >= square:
+            min = square
+        sum = sum + square
 
-pass
-
+if sum == 0:
+    print(-1)
+else:
+    print(sum)
+    print(min)
