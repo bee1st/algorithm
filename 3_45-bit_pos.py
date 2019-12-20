@@ -1,10 +1,7 @@
-import sys
-x = list(map(int, sys.stdin.readline().split()))
-
-n = x[0]
-a = 0
-while True:
-    a = a + 1
-
-
-pass
+n = int(input())
+pos = 0
+while n:
+    if n % 2:
+        print(pos, end=' ')
+    pos = pos + 1
+    n = n // 2
