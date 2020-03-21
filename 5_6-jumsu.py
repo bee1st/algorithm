@@ -6,8 +6,13 @@ count = 0
 
 for i in range(jumsu):
     if x[i] == 1 :
-        count += 1
-        if x[i] == 1 and x[i + 1] == 1 :
-            count += 1
+        if i > 0 and x[i - 1] >= 1:
+            x[i] =  x[i - 1] + 1
+        else:
+            x[i] = 1
+
+for i in range(jumsu):
+    count += x[i]
+
 print(count)
 
